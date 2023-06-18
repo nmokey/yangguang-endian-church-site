@@ -50,17 +50,20 @@
   .navbar ul ul li a:hover {
     background-color: #797979;
   }
+  .current {
+    background-color: #797979;
+  }
 </style>
 
 <nav class="navbar">
   <ul>
     {% for item in site.data.navigation %}
     <li>
-      <a href="{{ item.url }}">{{ item.name }}</a>
+      <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %} >{{ item.name }}</a>
       {% if item.subpages[0] %}
       <ul>
         {% for entry in item.subpages %}
-        <li><a href="{{ entry.url }}">{{ entry.name }}</a></li>
+        <li><a href="{{ entry.link }}">{{ entry.name }}</a></li>
         {% endfor %}
       </ul>
       {% endif %}
