@@ -1,7 +1,70 @@
-<nav>
+<!-- <nav style="padding: 1%">
   {% for item in site.data.navigation %}
     <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red"{% endif %}>
       {{ item.name }}
     </a>
   {% endfor %}
+</nav> -->
+<style>
+  .navbar {
+    background-color: #333;
+    position: relative;
+    z-index: 999;
+  }
+
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar li {
+    display: inline-block;
+  }
+
+  .navbar li a {
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+  .navbar ul ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+  }
+
+  .navbar ul ul li {
+    display: block;
+  }
+
+  .navbar li:hover ul {
+    display: block;
+  }
+
+  .navbar ul ul li a {
+    background-color: #333;
+  }
+
+  .navbar ul ul li a:hover {
+    background-color: #797979;
+  }
+</style>
+
+<nav class="navbar">
+  <ul>
+    {% for item in site.data.navigation %}
+    <li>
+      <a href="{{ item.url }}">{{ item.name }}</a>
+      {% if item.subpages[0] %}
+      <ul>
+        {% for entry in item.subpages %}
+        <li><a href="{{ entry.url }}">{{ entry.name }}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
 </nav>
