@@ -1,21 +1,30 @@
 - name: Home
   link: /
 - name: About Us
-  link: /about/
   subpages:
     - name: Faith and Mission
+      link: /faith-and-mission/
     - name: Our Staff
+      link: /our-staff/
 - name: Sunday Meetings
   subpages:
     - name: Chinese Information
+      link: /chinese-information/
     - name: Burmese Information
+      link: /burmese-information/
     - name: Essence of Grace
+      link: /essence-of-grace/
 - name: Church Ministry
   subpages:
     - name: Downtown Main Church
+      link: /downtown-main-church/
     - name: Shigudo
+      link: /shigudo/
     - name: Fumin Student Center
+      link: /fumin-student-center/
 - name: Community Service
-  subpages: 
+  subpages:
     - name: Personal Testimony
+      link: /personal-testimony/
     - name: Crow Delivers Cake
+      link: /crow-delivers-cake/
