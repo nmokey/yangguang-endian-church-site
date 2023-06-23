@@ -15,13 +15,7 @@
     - name: Essence of Grace
       link: /essence-of-grace/
 - name: Church Ministry
-  subpages:
-    - name: Downtown Main Church
-      link: /downtown-main-church/
-    - name: Shigudo
-      link: /shigudo/
-    - name: Fumin Student Center
-      link: /fumin-student-center/
+  link: /church-ministry/
 - name: Community Service
   subpages:
     - name: Personal Testimony
