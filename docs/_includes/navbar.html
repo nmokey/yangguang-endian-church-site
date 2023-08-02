@@ -1,0 +1,72 @@
+<style>
+    .navbar {
+      position: fixed;
+      right: 0;
+      background-color: #dee8f6;
+    }
+  
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .navbar li {
+      display: inline-block;
+    }
+  
+    .navbar li a {
+      color: black;
+      display: block;
+      padding: 10px 15px;
+      text-decoration: none;
+    }
+
+    .navbar li a:hover{
+        background-color: #bbc9de;
+
+    }
+  
+    .navbar ul ul {
+      position: absolute;
+      top: 100%;
+      display: none;
+    }
+  
+    .navbar ul ul li {
+      display: block;
+    }
+  
+    .navbar li:hover ul {
+      display: block;
+    }
+  
+    .navbar ul ul li a {
+        background-color: #bbc9de;
+    }
+  
+    .navbar ul ul li a:hover {
+        filter: brightness(95%);
+    }
+    
+    .current {
+        background-color: #bbc9de;
+    }
+  </style>
+  
+  <nav class="navbar">
+    <ul>  
+      {% for item in site.data.navigation %}
+      <li>
+        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %} >{{ item.name }}</a>
+        {% if item.subpages[0] %}
+        <ul>
+          {% for entry in item.subpages %}
+          <li><a href="{{ entry.link }}">{{ entry.name }}</a></li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
