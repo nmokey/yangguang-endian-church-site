@@ -21,8 +21,6 @@ figure {
   padding: 0;
 }
 
-
-
 /**
   * Basic styling
   */
@@ -40,8 +38,6 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
-
-
 
 /**
   * Set `margin-bottom` to maintain vertical rhythm
@@ -63,17 +59,16 @@ figure,
   margin-bottom: $spacing-unit / 2;
 }
 
-
-
 /**
   * `main` element
   */
 main {
   display: block;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 55.95px; // CUSTOM: compensate for header offset
   /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
-
-
 
 /**
   * Images
@@ -82,8 +77,6 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
-
-
 
 /**
   * Figures
@@ -96,8 +89,6 @@ figcaption {
   font-size: $small-font-size;
 }
 
-
-
 /**
   * Lists
   */
@@ -107,14 +98,11 @@ ol {
 }
 
 li {
-
   >ul,
   >ol {
     margin-bottom: 0;
   }
 }
-
-
 
 /**
   * Headings
@@ -127,8 +115,6 @@ h5,
 h6 {
   font-weight: $base-font-weight;
 }
-
-
 
 /**
   * Links
@@ -155,7 +141,6 @@ a {
   }
 }
 
-
 /**
   * Blockquotes
   */
@@ -171,8 +156,6 @@ blockquote {
     margin-bottom: 0;
   }
 }
-
-
 
 /**
   * Code formatting
@@ -200,8 +183,6 @@ pre {
   }
 }
 
-
-
 /**
   * Wrapper
   */
@@ -222,8 +203,6 @@ pre {
   }
 }
 
-
-
 /**
   * Clearfix
   */
@@ -232,8 +211,6 @@ pre {
   display: table;
   clear: both;
 }
-
-
 
 /**
   * Icons
@@ -253,8 +230,6 @@ pre {
     padding-top: 5px;
   }
 }
-
-
 
 /**
   * Tables

@@ -3,11 +3,13 @@
  */
 .site-header {
     border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-bottom: 2px solid $grey-color-light;
     min-height: $spacing-unit * 1.865;
 
     // Positioning context for the mobile navigation icon
-    position: relative;
+    position: fixed;
+    width: 100%;
+    background-color: $background-color;
 }
 
 .site-title {
@@ -107,7 +109,7 @@
    * Site footer
    */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 2px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 
