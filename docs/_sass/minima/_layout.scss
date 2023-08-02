@@ -1,6 +1,13 @@
 /**
  * Site header
  */
+
+.logo {
+    position: relative;
+    left: 20%;
+    padding: 5px;
+}
+
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 2px solid $grey-color-light;
