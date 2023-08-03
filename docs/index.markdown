@@ -2,7 +2,7 @@
 layout: home
 title:
 ---
-![Homepage Banner](/assets/images/Desert-Cross-A-750x375.jpg){:width="100%"}
+![site banner](/assets/images/Desert-Cross-A-750x375.jpg){:width="100%"}
 # 崇拜时间： 
 **中文** 11:00~12:20  
 **缅文** 15:00~16:30  
