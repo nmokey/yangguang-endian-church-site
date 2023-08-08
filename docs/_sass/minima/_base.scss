@@ -242,11 +242,11 @@ table {
   border-collapse: collapse;
   border: 2px solid $grey-color-dark;
 
-  tr {
-    &:nth-child(even) {
-      // background-color: lighten($grey-color-light, 6%);
-    }
-  }
+  // tr {
+  //   &:nth-child(even) {
+  //     background-color: lighten($grey-color-light, 6%);
+  //   }
+  // }
 
   th,
   td {
