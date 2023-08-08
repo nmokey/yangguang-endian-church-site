@@ -1,24 +1,24 @@
-- name: Home
+- name: 主页                        #Home
   link: /
-- name: About Us
+- name: 认识我们                     #About Us
   subpages:
-    - name: Faith and Mission
+    - name: 信仰与使命               #Faith and Mission
       link: /faith-and-mission/
-    - name: Our Staff
+    - name: 我们的同工               #Our Staff
       link: /our-staff/
-- name: Sunday Meetings
+- name: 主日聚会                     #Sunday Meetings
   subpages:
-    - name: Chinese Information
+    - name: 中文信息                 #Chinese Information
       link: /chinese-information/
-    - name: Burmese Information
+    - name: 缅文信息                 #Burmese Information
       link: /burmese-information/
-    - name: Essence of Grace
+    - name: 恩典精华                 #Essence of Grace
       link: /essence-of-grace/
-- name: Church Ministry
+- name: 教会事工                     #Church Ministry
   link: /church-ministry/
-- name: Community Service
+- name: 社区服务                     #Community Service
   subpages:
-    - name: Personal Testimony
+    - name: 个人见证                 #Personal Testimony
       link: /personal-testimony/
-    - name: Crow Delivers Cake
+    - name: 乌鸦送饼                 #Crow Delivers Cake
       link: /crow-delivers-cake/

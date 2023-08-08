@@ -236,15 +236,15 @@ pre {
   */
 table {
   margin-bottom: $spacing-unit;
-  width: 100%;
+  width: auto; // 100%;
   text-align: $table-text-align;
   color: lighten($text-color, 18%);
   border-collapse: collapse;
-  border: 1px solid $grey-color-light;
+  border: 2px solid $grey-color-dark;
 
   tr {
     &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
+      // background-color: lighten($grey-color-light, 6%);
     }
   }
 
@@ -260,6 +260,6 @@ table {
   }
 
   td {
-    border: 1px solid $grey-color-light;
+    border: 1px solid $grey-color-dark;
   }
 }
