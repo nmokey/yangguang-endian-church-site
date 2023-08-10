@@ -2,7 +2,7 @@
 layout: home
 title:
 ---
-![site banner](/assets/images/Desert-Cross-A-750x375.jpg){:width="100%"}
+![site banner](/assets/images/Desert-Cross-A-750x375.jpg){:width="75%"}
 # 崇拜时间： 
 
 | **中文** | 11:00~12:20 |
@@ -19,5 +19,5 @@ title:
 
 ## 联络我们：
 No. 326(A), Thiri Street, Hlaing Township, Yangon, Myanmar  
-**Phone**: <a href="tel:+95925-092-4847">+95 (925) 092-4847</a>  
+**Phone**: <a href="tel:+95925-092-4847">+959 250924847</a>  
 **Email**: [binghui40@gmail.com](mailto:binghui40@gmail.com){:target="_blank"}{:rel="noopener noreferrer"}
