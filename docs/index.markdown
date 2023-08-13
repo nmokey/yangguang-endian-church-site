@@ -2,13 +2,14 @@
 layout: home
 title:
 ---
-![site banner](/assets/images/Desert-Cross-A-750x375.jpg){:width="75%"}
+![site banner](/assets/images/banner.png){:width="100%"}
 # 崇拜时间： 
 
 | **中文** | 11:00~12:20 |
 | **缅文** | 15:00~16:30 |
 | **线上崇拜** | ZoomID: `6745482445` <br /> 密码：`13579 ` |
 
+<!-- this section to be changed frequently -->
 ## 本月通告:
 - 每周主日讲员（日期） 
 - 本周读经进度  

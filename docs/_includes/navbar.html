@@ -30,7 +30,6 @@
       position: absolute;
       top: 100%;
       display: none;
-      z-index: 2;
     }
   
     .navbar ul ul li {
@@ -59,13 +58,15 @@
     <ul>  
       {% for item in site.data.navigation %}
       <li>
-        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %} >{{ item.name }}</a>
         {% if item.subpages[0] %}
-        <ul>
-          {% for entry in item.subpages %}
-          <li><a href="{{ entry.link }}">{{ entry.name }}</a></li>
-          {% endfor %}
-        </ul>
+          <a {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+          <ul>
+            {% for entry in item.subpages %}
+            <li><a href="{{ entry.link }}">{{ entry.name }}</a></li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
         {% endif %}
       </li>
       {% endfor %}
